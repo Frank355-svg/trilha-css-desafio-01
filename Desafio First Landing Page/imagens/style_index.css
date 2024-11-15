@@ -1,0 +1,81 @@
+
+@import url(./global_index.css);
+body{
+    
+    background: linear-gradient(#424752, #333c3f,#0b0b0c );
+}
+
+.banner{
+background-image: url(./banner.png);
+    width: 1440px;
+    height: 386px;
+    margin: auto;
+    
+   
+}
+div{
+       
+    text-align: center;
+        
+}
+
+.banner-content{
+    text-align: center;
+    color: aqua;
+    margin:auto ;
+  
+}
+
+.banner-content .logo{
+    
+    
+    width: 260px;
+    height: 260px;
+    margin:auto;
+   
+}
+div button{
+    margin-top: 15px;
+    font-size: 20px;
+    color:white;
+    background-color:blue;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 10px;
+
+}
+
+
+#course-content{
+    text-align: center;
+    width: 1440px;
+    height: 386px;
+    margin: auto;
+   
+}
+
+#transform-world{
+    background-image:url(./woman-code.png);
+   
+    background-clip:content-box;
+    background-attachment:fixed ;
+    text-align: center;
+    width: 1440px;
+    height: 400px;
+    margin: auto;
+}
+
+#transform-world p{
+    text-shadow: 1px 1px #0a0a0a;
+    font-size: 30px;
+   background-clip: text;
+    margin-right: 750px;
+    
+}
+
+
+
+
+
+
+
