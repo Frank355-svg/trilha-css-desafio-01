@@ -1,0 +1,164 @@
+
+@import url(./reset_Trilhas_do_CSS_Dio.css);
+
+
+body {
+        
+        background-color: black;
+        margin:auto;
+  }
+
+  h2 {
+    font-size: 32px;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  
+  }
+  p {
+    color: white;
+    margin-bottom: 16px;
+  }
+
+  section {
+    margin: 100px auto;
+   
+  }
+
+ .banner {
+    background-image:  linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)),  url(./imagens/banner.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    border-bottom: 1px solid #33A8DB80;
+    padding-left: 10px;
+    margin-right: 10px;
+    
+ }
+
+.banner-content {
+  color: white;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+  .banner .logo {
+   
+    background-color: rgba(0, 0, 0, .2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+   h1 {
+    width: 434px;
+    height: 47px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    background-position: center;
+    margin:auto;
+    margin-bottom: 16px;  
+ 
+   }
+.banner .banner-content button {
+  color: #31A8DD;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image-slice: 10;
+  border-radius: 30px;
+  margin-bottom: 16px;
+
+}
+main section #course-content{
+  color: #31A8DD;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7, yellow);
+  border-image-slice: 10;
+  border-radius: 30px;
+  margin-bottom: 16px;
+  
+}
+    
+#course-content {
+      margin-top: 16px;
+      width: 800px;
+      text-align: center;
+      
+    }
+  #course-contente .modules-list{
+    margin: 24px 0;
+  }
+
+#course-content .modules-list .module{
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 5px solid #33A8DB;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+#course-content .modules-list .module span {
+  color:#33A8DB;
+}
+
+#transform-world {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(./imagens/woman-code.png);
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  padding:200px;
+  box-sizing: border-box;
+  border-top: 1px solid #33A8DB80;
+  border-bottom:1px solid #33A8DB80 ;
+ 
+}
+#transform-world p{
+  text-align: left;
+  text-shadow:2px 3px #33A8DB;
+  text-transform: lowercase;
+  border-color: red;
+  color:white;
+  max-width: 250px;
+  font-size: 40px;
+
+  
+}
+
+ #professional-challenges{
+  
+  margin: auto;
+  padding: 16px;
+  text-align: center;
+  border-bottom:1px solid  #33A8DB ;
+}  
+
+footer{
+  margin:auto;
+  text-align: center;
+}
+
+footer .dio-logo{
+  margin-top:auto;
+  padding:16px;
+}
